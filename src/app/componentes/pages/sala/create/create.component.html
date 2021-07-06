@@ -1,0 +1,54 @@
+<div class="container">
+    <div class="content">
+        <div class="form">
+            <p>Nova sala</p>
+            <mat-form-field class="form-field">
+                <mat-label>Nome da sala</mat-label>
+                <input 
+                required
+                matInput 
+                placeholder="Reunião com a diretoria"
+                name="nome"
+                [(ngModel)]="salaNew.nome"
+                >
+            </mat-form-field>
+            <mat-form-field class="form-field">
+                <mat-label>Data da reunião</mat-label>
+                <input 
+                required
+                matInput 
+                placeholder="05/05/2021"
+                name="data"
+                [(ngModel)]="salaNew.data"
+                >
+            </mat-form-field>
+            <mat-form-field class="form-field">
+                <mat-label>Horario de inicio</mat-label>
+                <input 
+                required
+                matInput 
+                placeholder="08:00"
+                name="horaInicio"
+                [(ngModel)]="salaNew.horaInicio"
+                >
+            </mat-form-field>
+            <mat-form-field class="form-field">
+                <mat-label>Horario do termino</mat-label>
+                <input 
+                required
+                matInput 
+                placeholder="12:30"
+                name="horaFim"
+                [(ngModel)]="salaNew.horaFim"                
+                >
+            </mat-form-field>
+            <div class="botoes">
+                <button mat-button class="btn-create" (click)="createSala()">Salvar</button>
+                <button mat-button class="btn-cancelar" (click)="cancelar()">Cancelar</button>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

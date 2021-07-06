@@ -1,0 +1,67 @@
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: #f4f7fa;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    width: 80%;
+    height: 80%;
+    align-self: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+    background-color: rgb(73, 73, 73);
+
+    color: #fff;
+
+    border-radius: 20px;
+
+    padding: 20px 10px;
+}
+
+.form-field {
+    width: 80%;
+    color: #fff;
+}
+
+mat-label{
+    color: #fff;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.botoes button{
+    width: 100px;
+    margin: 0px 20px;
+}
+
+.btn-create{
+    background-color: #219ebc;
+}
+
+.btn-cancelar{
+    background-color: #d00000;
+}
+
+.form p{
+    font-size:20px;
+    margin: 0px;
+}

@@ -1,0 +1,23 @@
+.header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+
+    padding: 20px 128px;
+}
+
+.header span{
+    cursor: pointer;
+
+    color: #585c60;
+}
+
+@media screen and (max-width: 600px) {
+    .header{
+        padding: 20px 10px;
+    }
+    .header span{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="content">
+        <div class="cards">
+            <mat-card class="card">
+                    <mat-card-title class="card-title">{{salaDetails.nome}}</mat-card-title>
+                    <mat-card-subtitle class="card-subtitle">{{salaDetails.data}}</mat-card-subtitle>
+                    <mat-card-subtitle class="card-subtitle">inicio da reunião {{salaDetails.horaInicio}}</mat-card-subtitle>
+                    <mat-card-subtitle class="card-subtitle">termino da reunião {{salaDetails.horaFim}}</mat-card-subtitle>
+               
+                    <div class="botoes">
+                        <button mat-fab routerLink="/salas">
+                                <mat-icon>arrow_back</mat-icon>
+                        </button>
+                        <button mat-fab class="delete" (click)="delete()">
+                                <mat-icon>delete</mat-icon>
+                        </button>
+                    </div>                
+            </mat-card>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>
