@@ -14,4 +14,4 @@
 - https://github.com/santoskarolina/sala-reuniao-back
 
 #### :small_blue_diamond: Sistema em execução
-![DOMAIN MODEL](https://github.com/santoskarolina/html/blob/main/html/reuniao.gif)
+![DOMAIN MODEL](https://github.com/santoskarolina/html/blob/main/assets/reuniao.gif)
