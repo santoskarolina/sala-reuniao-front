@@ -17,10 +17,9 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import { HeaderComponent } from './componentes/templates/header/header.component';
 import {MatInputModule} from '@angular/material/input';
-import { FormsModule } from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { FooterComponent } from './componentes/templates/footer/footer.component';
 import { HomeComponent } from './componentes/pages/home/home.component';
-import { EspacoComponent } from './componentes/pages/espaco/espaco.component';
 
 @NgModule({
   declarations: [
@@ -32,20 +31,20 @@ import { EspacoComponent } from './componentes/pages/espaco/espaco.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    EspacoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NoopAnimationsModule,
     MatToolbarModule,
-    HttpClientModule, 
+    HttpClientModule,
     MatSnackBarModule,
     MatCardModule,
-    MatButtonModule, 
+    MatButtonModule,
     MatIconModule,
     MatInputModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
